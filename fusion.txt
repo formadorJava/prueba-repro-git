@@ -1,0 +1,15 @@
+SE AÑADE ESTE FICHERO fusion.txt AL STAGED AREA (copiarlo y pegarlo a mano en el repositorio prueba-repo-git:
+	git add.
+
+Y LUEGO SE HACE EL COMMIT:
+	git commit -m "agregado fichero fusion.txt desde rama juan"
+	
+
+
+... LA FUSIÓN CONSISTIRÁ EN:
+
+	CAMBIAR A LA RAMA main (ES FUNDAMENTAL ELEGIRLA EN PRIMER LUGAR):
+		git checkout main
+		
+	COGER LOS CAMBIOS DE LA RAMA juan Y GUARDARLOS EN LA RAMA ACTUALMENTE ACTIVA (main por la orden anterior).
+		git merge juan
