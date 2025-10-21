@@ -1,5 +1,5 @@
 SE AÑADE ESTE FICHERO fusion.txt AL STAGED AREA (copiarlo y pegarlo a mano en el repositorio prueba-repo-git:
-	git add.
+	git add .
 
 Y LUEGO SE HACE EL COMMIT:
 	git commit -m "agregado fichero fusion.txt desde rama juan"
